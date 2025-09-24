@@ -1,9 +1,7 @@
 package com.abdul.eventscheduler;
 
-/**
- * Hello world!
- *
- */
+import com.EventUI;
+
 public class App 
 {
     public static void main( String[] args )
@@ -12,8 +10,10 @@ public class App
         // System.out.println(e);
 
         EventService service = new EventService();
+        EventUI IU = new EventUI();
+        IU.display();
      
-       service.addEvent();
+    //    service.addEvent();
        
         
     }

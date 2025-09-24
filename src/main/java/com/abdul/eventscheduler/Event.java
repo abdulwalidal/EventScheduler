@@ -56,17 +56,16 @@ public class Event {
         this.location = location;
     }
 
-    @Override
+  
+@Override
 public String toString() {
-    return "Event{" +
-            "id=" + id +
-            ", title='" + title + '\'' +
-            ", description='" + description + '\'' +
-            ", date='" + date + '\'' +
-            ", location='" + location + '\'' +
-            '}';
+    return "Event Details:\n" +
+           "  ID: " + id + "\n" +
+           "  Title: " + title + "\n" +
+           "  Description: " + description + "\n" +
+           "  Date: " + date + "\n" +
+           "  Location: " + location + "\n";
 }
-
 
 
 }
