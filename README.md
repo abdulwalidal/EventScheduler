@@ -19,13 +19,12 @@ You can add, view, update, and remove events using a menu-driven interface.
 
 ## Project Structure
 ```
-
 src/com/abdul/eventscheduler/
-│
-├── App.java          # Main entry point
-├── Event.java        # Event model (fields, getters, setters, toString)
-├── EventService.java # Core event operations (add, view, update, remove)
-└── EventUI.java      # User interface (menu and input handling)
+
+App.java → Main entry point
+Event.java → Event model (fields, getters, setters, toString)
+EventService.java → Core event operations (add, view, update, remove)
+EventUI.java → User interface (menu and input handling)
 
 ````
 
