@@ -16,24 +16,32 @@ public class EventUI {
         System.out.println("Here You can add your Scheduled Events or Ongoing Event\n");
         System.out.println("1. Add your Event");
         System.out.println("2. View All Events");
-        System.out.println("3. Remove your Event");
-        System.out.println("4. Edit your Event");
+        System.out.println("3. Update your Event");
+        System.out.println("4. Remove your Event");
         System.out.println("5. Exit");
 
         int choice = sc.nextInt();
             switch (choice) {
                 case 1:
                 esUI.addEvent();    
-                    break;
+                break;
+
                 case 2:
                 esUI.viewEvents();
                 break;
+
                 case 3:
                     esUI.removeEvent();
-                    break;
+                esUI.updateEvent();
+                break;
+
                 case 4:
+                esUI.removeEvent();
+                break;
+
+                case 5:
                 esUI.exit();
-                  break;
+
                 default:
                   
             }
