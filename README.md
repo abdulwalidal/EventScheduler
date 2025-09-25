@@ -1,4 +1,4 @@
-Alright Abdul 👍 let’s strip it down to a **clean and simple README** — no heavy emojis, no extra fluff, just the essentials:
+
 
 ```markdown
 # Event Scheduler (Java Console App)
