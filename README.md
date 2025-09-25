@@ -1,37 +1,33 @@
-
-
-```markdown
+````markdown
 # Event Scheduler (Java Console App)
 
-A simple Java console application to manage events.  
-You can add, view, update, and remove events using a menu-driven interface.
+This is a simple Java console application that helps you manage events.  
+It allows you to add, view, update, and remove events using a menu-driven interface.
 
 ---
 
 ## Features
-- Add new events (title, description, date, location)  
-- View all events  
-- Update event details  
-- Remove events by ID  
-- Exit the program  
+The application provides the following features:
+- Add new events with title, description, date, and location  
+- View all saved events  
+- Update existing event details  
+- Remove events by their ID  
+- Exit the application safely  
 
 ---
 
 ## Project Structure
-```
-src/com/abdul/eventscheduler/
+The source code is organized as follows:
 
-App.java → Main entry point
-Event.java → Event model (fields, getters, setters, toString)
-EventService.java → Core event operations (add, view, update, remove)
-EventUI.java → User interface (menu and input handling)
-
-````
+- `App.java` → Main entry point of the program  
+- `Event.java` → Event model (fields, getters, setters, toString)  
+- `EventService.java` → Core event operations (add, view, update, remove)  
+- `EventUI.java` → User interface (menu and input handling)  
 
 ---
 
 ## How to Run
-1. Clone the repository:
+1. Clone the repository using:
    ```bash
    git clone https://github.com/your-username/event-scheduler.git
    cd event-scheduler
@@ -47,3 +43,5 @@ EventUI.java → User interface (menu and input handling)
    ```bash
    java com.abdul.eventscheduler.App
    ```
+Do you also want me to add a **small “Sample Run” section** (just the menu screenshot in text) at the end for clarity?
+```
