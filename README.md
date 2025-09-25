@@ -1,47 +1,65 @@
-````markdown
-# Event Scheduler (Java Console App)
 
-This is a simple Java console application that helps you manage events.  
-It allows you to add, view, update, and remove events using a menu-driven interface.
+````markdown
+## Description
+A simple **Event Scheduler** program in **Java** to manage events.  
+This console-based application allows users to add, view, update, and remove events with details such as title, description, date, and location.
 
 ---
 
 ## Features
-The application provides the following features:
-- Add new events with title, description, date, and location  
-- View all saved events  
-- Update existing event details  
-- Remove events by their ID  
-- Exit the application safely  
-
----
-
-## Project Structure
-The source code is organized as follows:
-
-- `App.java` → Main entry point of the program  
-- `Event.java` → Event model (fields, getters, setters, toString)  
-- `EventService.java` → Core event operations (add, view, update, remove)  
-- `EventUI.java` → User interface (menu and input handling)  
-
+- **Add Event**: Add a new event with details (title, description, date, location).  
+- **View Events**: Display all saved events in a formatted list.  
+- **Update Event**: Update the details of an existing event.  
+- **Remove Event**: Delete an event by its ID.  
+- **Exit**: Exit the application safely.  
 ---
 
 ## How to Run
-1. Clone the repository using:
+
+1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/event-scheduler.git
-   cd event-scheduler
+   git clone https://github.com/yourusername/event-scheduler.git
 ````
 
-2. Compile the Java files:
+2. **Navigate to the project folder**:
+
+   ```bash
+   cd event-scheduler
+   ```
+
+3. **Compile the program**:
 
    ```bash
    javac src/com/abdul/eventscheduler/*.java
    ```
-3. Run the program:
+
+4. **Run the program**:
 
    ```bash
    java com.abdul.eventscheduler.App
    ```
-Do you also want me to add a **small “Sample Run” section** (just the menu screenshot in text) at the end for clarity?
+
+---
+
+## Usage
+
+### Menu Options:
+
+1. **Add Event** → Enter event details (title, description, date, location).
+2. **View Events** → See all stored events in a list.
+3. **Update Event** → Select an event by ID and update its details.
+4. **Remove Event** → Select an event by ID to delete it.
+5. **Exit** → Exit the program with a closing message.
+
+---
+
+## Code Overview
+
+* **Event.java** → Defines the `Event` class with fields, constructor, getters/setters, and `toString()`.
+* **EventService.java** → Handles core logic for adding, viewing, updating, and removing events.
+* **EventUI.java** → Manages the menu, takes user input, and connects with `EventService`.
+* **App.java** → Main entry point that starts the program and runs the UI.
+
 ```
+
+
