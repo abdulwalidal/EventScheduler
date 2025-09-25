@@ -55,6 +55,10 @@ public class EventService {
       }
     }
 
+    public void updateEvent() {
+      
+    }
+
 
 
      // method for removing Event

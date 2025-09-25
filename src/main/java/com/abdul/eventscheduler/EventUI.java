@@ -1,4 +1,4 @@
-package com;
+package com.abdul.eventscheduler;
 
 import java.util.Scanner;
 

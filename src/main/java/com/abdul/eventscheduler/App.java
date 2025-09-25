@@ -1,6 +1,6 @@
 package com.abdul.eventscheduler;
+import com.abdul.eventscheduler.EventUI;
 
-import com.EventUI;
 
 public class App 
 {
