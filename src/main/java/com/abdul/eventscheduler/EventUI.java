@@ -24,14 +24,13 @@ public class EventUI {
             switch (choice) {
                 case 1:
                 esUI.addEvent();    
-                break;
+                break;  
 
                 case 2:
                 esUI.viewEvents();
                 break;
 
                 case 3:
-                    esUI.removeEvent();
                 esUI.updateEvent();
                 break;
 
