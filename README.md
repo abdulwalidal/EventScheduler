@@ -59,7 +59,3 @@ This console-based application allows users to add, view, update, and remove eve
 * **EventService.java** → Handles core logic for adding, viewing, updating, and removing events.
 * **EventUI.java** → Manages the menu, takes user input, and connects with `EventService`.
 * **App.java** → Main entry point that starts the program and runs the UI.
-
-```
-
-
